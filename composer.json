@@ -1,5 +1,5 @@
 {
-  "name": "pjarmalavicius/entity-extend-bundle",
+  "name": "skysurfer0110/entity-extend-bundle",
   "type": "symfony-bundle",
   "description": "Easy doctrine entities extending",
   "keywords": ["doctrine extend mapping"],
@@ -11,19 +11,11 @@
       "email": "paulius.jarmalavicius@gmail.com"
     }
   ],
-  "repositories":
-    [
-            {
-                "type": "vcs",
-                "url": "https://github.com/Skysurfer0110/PjEntityExtendBundle"
-            }
-    ],
   "require": {
     "php": "~5.4|~7.0",
     "symfony/framework-bundle": "~2.3|~3.0",
     "doctrine/orm": ">=2.2.3",
-    "doctrine/doctrine-bundle": "*",
-    "pjarmalavicius/entity-extend-bundle": "master"
+    "doctrine/doctrine-bundle": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
